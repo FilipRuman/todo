@@ -1,3 +1,0 @@
----
-Title: Finish one shot
----
