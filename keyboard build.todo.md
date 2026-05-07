@@ -6,7 +6,7 @@ Title:keyboard build
 - [*] kable
 - [*] Termokurczliwe g
 - [*] Microcontroller
-- [] PLA
+- [*] PLA
 - [*] Barel jack connector
 - [] 10xm3 10mm screw
 - [] 16xm2 5mm screw
