@@ -6,43 +6,57 @@ Title:vid
 - Learn the context
 - Unearth all the details
 
+OPIS:
+
+https://svalboard.com/
+https://www.charachorder.com/
+
 ## Intro
 
+W tym odcinku pokarze ci na co zwrócić uwagę podczas wybierania swojej
+wymarzonej klawiatóry oraz w jaki sposób własnoręcznie zbudować ergonomiczną
+klawiatórę bez PCB.
+
 TLDR. Nie jestem fizjoterapełtą ale długo siedzę w temacie budowy ergonomycznych
-klawiatur i dam consensus community tego jak zbudować najwygodniejszą klawiaturę
-dla więkrzości osób. # TODO: Rephrase
+klawiatur i postaram dać ci consensus community jak, więkrzości osób, zbudować najwygodniejszą klawiaturę.
 
 ## Materiały
 
 ### PCB vs No PCB
 
-TODO:
+PCB pozwoli ci łatwiej zbudować klawiatórę plus dodatkowo będziesz mógł łatwiej zmieniać switche w swojej klawiatórze jednak wiąże się z dodatkowym kosztem.
+Dodatkowo jeżeli chcesz wykożystać projekt klawiatóry która ma wygięty kształt musisz wykorzystać ręcznie polutowane switche bez pcb albo specialne wyginające się pcb. 
+https://github.com/abstracthat/dactyl-manuform
+
+Naj prostrzym i najtańszym sposobem który nakłada na ciebie naj mniej ograniczeń jest nie użycie pcb i właśnie go pokarze puźniej w tym odcinku.
 
 ### Obudowa
 
-Chara corder, Ręka Klawiatura : TODO
 
-Najważniejszą decyzją podczas budowy kawiatury będzie obudowa którą wybierzemy.\
-Na podstawie tej decyzji będziemy wybierać wszystkie inne komponenty.
+Najważniejszą decyzją podczas budowy kawiatury będzie obudowa którą wybierzesz.\
+Na podstawie tej decyzji będziesz wybierać wszystkie inne komponenty.
 
 #### FORMAT
 
-Najpierw musimy zadecydować czy chcemy klawiaturę w klasycznym formacie czy
+Najpierw musisz zadecydować czy chcesz klawiaturę w klasycznym formacie czy
 rozdzieloną na dwie połówki. Osobiście jestem zwolennikiem podzielonej
 konstrukcji ponieważ jest o wiele bardziej wygodna - możemy położyć klawiaturę w
 idealnej pozycji dla naszych ramion i nadgarstków. Jeżeli umiesz dobrze touch
 type-ować to nie poczujesz rzadnej różnicy jeżeli chodzi o pisanie.
 
+
+Warto tutaj wspomnieć o klawiatórach takich jak svalboard czy chara corder( dam do nich linka w opisie ) jednak są to klawiatóry na których pisze się w zupełnie inny sposób oraz są o wiele droższe. 
+
 #### Ile switch-y
 
-Następnie musimy zadecydować ile switch-ów chcemy zamątować na klawiatórze. Im
-mniej switchów tym mniej nasze ręce będą musiały się ruszać podczas pisania co
+Następnie musisz zadecydować ile switch-ów chcemy zamątować na klawiatórze. Im
+mniej switchów tym mniej ręce będą musiały się ruszać podczas pisania co
 sprawi że:
 
-- Będziemy popełniać mniej błędów: Palce pozostają zawsze na bazowej
+- Będziesz popełniać mniej błędów: Palce pozostają zawsze na bazowej
   pozycji(home row) lub są oddalone o mały dystans od niej co zmniejsza szanse,
-  że się pomylimy i w ciśniemy nie ten przycisk który chcieliśmy.
-- Pisanie będzie bardziej ergonomiczne: Nie musimy sięgać do oddalonych
+  że się pomylisz i w ciśniesz nie ten przycisk który chcesz.
+- Pisanie będzie bardziej ergonomiczne: Nie musisz sięgać do oddalonych
   przycisków.
 
 Jednak mniejsza ilość przycisków wiąże się z koniecznościom nauki bardziej
@@ -69,10 +83,10 @@ https://akkogear.eu/blogs/news/ortholinear-keyboards
 ##### Thumb cluster
 
 Jeżeli chcesz bardziej ergonomiczną klawiatórę to bardzo polecam design-y które
-posiadają wyodrębnione przyciski dla kciuków- np. corne Kciuk jest
-najsilniejszym z naszych palców a standardowy layout klawiatury marnuje jego
+posiadają wyodrębnione przyciski dla kciuków- np.  corne.
+Kciuk jest najsilniejszym z naszych palców a standardowy layout klawiatury marnuje jego
 potencjał na samą spację. Ja osobiście jestem zwolennikiem 3 dedykowanych
-przycisków na kciuk
+przycisków na kciuk.
 
 #### Tilt
 
@@ -141,10 +155,13 @@ kupienie dedykowanego modułu do myszek z sensorem PMW3360 na aliexpress lub
 zrobienie jakiejś opensourceowego pcb z tym sensorem-
 https://github.com/Ariamelon/Ogen.
 
+Fajnym dodatkiem może być także enkoder/potencjometr możesz go przypisać do zmiany głośność lub do scrollowania,
+dużym plusem tego rozwiązania jest cena ponieważ są bardzo popularne i można je znaleźć nawet za 5 złoty. 
+
 #### Produkcja Obudowy
 
-Jednak jeżeli chcecie klawiatury w standardowy formacie z pcb to polecam wybrać
-obudowę z pcg od znanego producenta np. keychron akko - jest wiele innych
+Jednak jeżeli chcesz klawiatury w standardowy formacie z pcb to polecam wybrać
+obudowę z pcb od znanego producenta np. keychron akko - jest wiele innych
 producentów jednak nie znam się na gotowcach ponieważ wole budować własne
 klawiatury.\
 Jeżeli chcesz ergonomiczną klawiatórę która będzie odrazu złożona to możesz
@@ -162,33 +179,85 @@ własnoręcznie zbudowanej klawiatury.
 
 Jest bardzo wiele możliwych designów opensourceow-ych klawiatur. Jeżeli czujesz
 się na siłach możesz nawet zaprojektować swoją własną. W opisie zostawie dwie
-najpopularniejsze listy designów klawiatór.
+najpopularniejsze listy projektów klawiatór.
 
 https://github.com/topics/mechanical-keyboards
 https://yal-tools.github.io/ergo-keyboards/
 
 #### Valkyrie
 
+Ja po długim researchu wybrałem klawiatórę, która spełnia wszystkie moje
+wymagania.
+
+Czyli VFK-001 Valkyrie folded keyboard. Punktem który naj bardziej ją wyrórznia
+od reszty jest oczywiście mechanizm składania który pozwala na bardzo agresywną
+flarę 45 stopni bez kompromisu na wielkości, co pozwala na łatwy transport.:
+oprócz  tego klawiatóra posiada:
+- 36 przyciski - czyli tyle samo co moja stara klawiatóra,
+- Model wspierający trackballa- co zamierzam wykorzystać,
+- Jest na licencji MIT,
+- Przystosowany do switchów MX 
+
 #### Socket-y na switch-e
+
+Jeżeli nie kożystasz z PCB to są dwie opcje do podłączenia switchów- lutowanie bezpośrednio do pinów lub lutowanie do do specjalnych gniazd które pozwalają na zmienienie switchów bez lutowania.  
+Jednak gniazda wiążą się z dodatkowym kosztem, a odlutowanie switchów nie zajmuje dużo czasu dlatego nie jestem ich zwolennikiem.
 
 #### Switche
 
+Switche są najważniejszą częścią klawiatóry i to one najbardziej wpływają na odczucia z pisania na klawiaturze.  
+Wybór odpowiedniego switcha to sprawa bardzo indywidualna, jedni wolą ciche liniowe lub tactile  a inne głośne klikające.
+Switche głównie dzielą się na trzy typy: Linear,Clicky,Thocky. Jeżeli wiesz który typ pasuje ci najbardziej, będzie ci o wiele łatwiej zawężyć poszukiwania do jednego produktu.
+Najleprzym sposobem na wybranie odpowiedniego switcha dla siebie jest wytestowanie ich IRL np. u znajomego czy w sklepie. 
+Jednak jeśli nie masz takiej możliwości, lub chciałbyś poprostu usłyszeć jak brzmi jakiś konkretny przełącznik to polecam obejżeć test np. na kanale youtube Click and Thock.
+Warto także zwrócić uwagę na głośność - jeżeli chcesz używać tej klawiatóry poza domem to jest to bardzo ważny czynnik.
+Jeżeli jakiś swtch nie jest fabrycznie nasmarowany to nie polecam go kupować gdyż w od jakiegoś czasu fabryczne smarowanie jest na bardzo dobrym poziomie i naprawde bardzo sęsowne rezultaty można osiągnąć przy niskim budrzecie.
+Istnieją także switche magnetyczne jednak mają one tylko i wyłącznie sęs w grach esportowych na których się poprostu nie znam.
+
+#### Pianka/Konstrukcja wpływająca na dźwięk
+
+Jednak nie tylko switche wpływają na dźwięk klawiatury, wpływa na niego budowa całej klawiatury. W klawiatórach z pcb jego montaż także ma znaczenie dlatego dodam do opisu link do cheat-sheata którego teraz widzicie. 
+Dodanie dodatkowego wygłuszenia w postaci pianki, wygłuszenia samochodowego, czy nawet PIASKU,  może mieć bardzo pozytywny wpływ na dźwięk.
+
+https://thomasbaart.nl/wp-content/uploads/2019/04/20190407_KeyboardMountingStylesCheatSheet.png
+https://www.youtube.com/@HipyoTech/videos
+
 #### Keycapy
+
+Odpowiednie keycapy nie tyko sprawią że zwykła klawyatura zacznie rzucać się w oczy ale także mają wpływ na dźwięk.
+Głównymi materiałami wykorzystywanymi do produkcji keycapów są PBT i ABS. 
+PBT jest ogólnie preferowane ponieważ jest o wiele bardziej wytrzymałe i cięższe przezco także wydaje się bardziej 'Premium' jednak wiąże się z wyższym kosztem.   
+Istnieją także keycapy z różnych innych materiałów takich jak metale czy ceramika jednak są to raczej bajery niż materiał zastępujący PBT. 
+Wybierając keycapy warto zwrócić na ogólny design klawiatóry aby wybrać kolory keycapów oraz legendy które będą pasowały do ogólnego vibe-u klawiatóry.
 
 Pamiętaj aby patrzyć na keycapy które będą dobrze pasować i wyglądać z formatem
 switchów który wybrałeś - mx lub chock.
 
+#### QMK vs ZMK vs etc
+
+Aby przesyłać informacje natemat wciśniętych przycisków na klawiatórze będziemy używać mikro controlerów.
+Jednak sam mikro contrloler nic nie zrobi bez odpowiedniego firmware-u. Naj bardziej popularnymi oprogramowaniami są QMK i ZMK. 
+W bardzo dużym skrócie- jeżeli chcesz zbudować klawiatórę bezprzewodową użyj ZMK w innym wupadku wybierz QMK. 
+
 #### Micro Controller Options
 
-WIRELESS, PINS.
+Aby wybrać odpowiedni mikrokontorler musisz zwrócić uwagę na kilka ważnych czynników:
+- Czy mikrokontorler wspiera blue-toothe- jeżeli chcesz stworzyć bezprzewodową klawiatórę,
+- Wsparcie przez firmware którego chcesz użyć,
+- Ile pinów GPIO dany mikrokontorler posiada- będziemy potrzebować 1 pin na karzdy rząd i kolumnę + ewentualnie jeden pin do komunikacji z drugą połówką klawiatóry + dodatkowe piny na dodatkowe podzespoły,  
+- I oczywiście jakie złącze usb dany mikrokontorler wspiera - nikt nie chce używać mikro-usb w wielkim 2026.
 
 #### Additional
 
-- TRRS
+Dodatkowo do zbudowania klawiatóry będzie potrzebne:
+- Zasoby do lutowania
+- (optional)Hot Glue
+- (optional) Heat shrink tube
+- Przewody do polutowania
+- (optional) Drut Miedziany 
+- diody
+- TRRS kable
 - TRRS Brakeout board
-- Usb-c
-
-#### QMK vs ZMK vs etc
 
 ### Nażędzia
 
